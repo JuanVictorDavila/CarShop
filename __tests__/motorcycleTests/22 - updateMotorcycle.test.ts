@@ -64,7 +64,7 @@ describe('22 - Crie uma rota para o endpoint /motorcycles/id onde é possível a
 
     const getCar = await request(server.getApp())
       .get(`/motorcycles/${_id}`);
-    expect(getCar.body).toEqual(motorcycleMock.updatedMotorcycle);
+    expect(getCar.body).toEqual({ ...motorcycleMock.updatedMotorcycle, _id });
     expect(result.statusCode).toEqual(200);
   })
 });
