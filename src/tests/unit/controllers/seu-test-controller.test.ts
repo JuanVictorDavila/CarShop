@@ -33,24 +33,24 @@ describe('Testando a camada controller de Car', () => {
     req.params = {id: mock_id};
 
     before(() => {
-        sinon.stub(Model, 'find').resolves(mockCarFind);
-        res.status = sinon.stub().returns(res);
-        res.json = sinon.stub().returns(res);
+      sinon.stub(Model, 'find').resolves(mockCarFind);
+      res.status = sinon.stub().returns(res);
+      res.json = sinon.stub().returns(res);
     });
 
     after(() => {
-        (Model.find as sinon.SinonStub).restore();
+      (Model.find as sinon.SinonStub).restore();
     });
 
     it('Retorna carro com id especificado', async () => {
-        req.body = mockCarModel;
+      req.body = mockCarModel;
 
-        await CarController.findByIdCar(req, res);
-        await CarController.deleteCar(req, res);
-        await CarController.updateCar(req, res);
+      await CarController.findByIdCar(req, res);
+      await CarController.deleteCar(req, res);
+      await CarController.updateCar(req, res);
 
-        expect((res.status as sinon.SinonStub).calledWith(201)).equal(false);
-        expect((res.json as sinon.SinonStub).calledWith(mockCarFind)).equal(false);
+      expect((res.status as sinon.SinonStub).calledWith(201)).equal(false);
+      expect((res.json as sinon.SinonStub).calledWith(mockCarFind)).equal(false);
     });
-});
+  });
 });

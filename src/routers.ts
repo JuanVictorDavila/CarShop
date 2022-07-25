@@ -2,15 +2,16 @@ import { Router } from 'express';
 import * as CarController from './controllers/CarController';
 import * as MotorcycleController from './controllers/MotorcycleController';
 
+const CAR_ID = '/cars/:id';
 const MOTORCYCLES_ID = '/motorcycles/:id';
 
 const router = Router();
 
 router.post('/cars', CarController.createCar);
 router.get('/cars', CarController.findCar);
-router.get('/cars/:id', CarController.findByIdCar);
-router.put('/cars/:id', CarController.updateCar);
-router.delete('/cars/:id', CarController.deleteCar);
+router.get(CAR_ID, CarController.findByIdCar);
+router.put(CAR_ID, CarController.updateCar);
+router.delete(CAR_ID, CarController.deleteCar);
 
 router.post('/motorcycles', MotorcycleController.createMotorcycle);
 router.get('/motorcycles', MotorcycleController.findMotorcycle);
