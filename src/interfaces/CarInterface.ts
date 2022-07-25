@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { vehicleSchema } from './IVehicle';
+import { vehicleSchema } from './VehicleInterface';
 
 export const carSchema = vehicleSchema.extend({
   doorsQty: z.number().gte(2).lte(4),
