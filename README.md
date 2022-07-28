@@ -1,45 +1,5 @@
 # Boas-vindas ao repositório do projeto Car Shop!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-## Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
-
-# Entregáveis
-
-<details>
-  <summary>
-    <strong>🤷🏽‍♀️ Como entregar</strong>
-  </summary><br>
-
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  > Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
-
-<details>
-  <summary>
-    <strong>👨‍💻 O que deverá ser desenvolvido</strong>
-  </summary><br>
-
-  Para este projeto, você deverá aplicar os princípios de Programação Orientada a Objetos (`POO`) para a construção de uma API com `CRUD` para gerenciar uma concessionária de veículos. Isso será feito utilizando o banco de dados `MongoDB`.
-
-</details>
-
-<details>
-  <summary>
-    <strong>🗓 Data de Entrega</strong>
-  </summary><br>
-  
-  - Este projeto é individual;
-  - São `2` dias de projeto;
-  - Data de entrega para avaliação final do projeto: `14/07/2022 14:00`.
-
-</details>
-
 # Orientações
 
 <details>
@@ -49,9 +9,8 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   1. Clone o repositório
 
-  - Use o comando: `git clone https://github.com/tryber/sd-016-a-project-car-shop.git`.
+  - Use o comando: `git clone git@github.com:JuanVictorDavila/CarShop.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-016-a-project-car-shop`
 
   2. Instale as dependências
 
@@ -89,7 +48,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   6. Crie um novo `Pull Request` _(PR)_
 
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-016-a-project-car-shop/pulls)
+  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/JuanVictorDavila/CarShop/pulls)
   - Clique no botão verde _"New pull request"_
   - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   - Coloque um título para a sua _Pull Request_
@@ -97,7 +56,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   - Clique no botão verde _"Create pull request"_
   - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-016-a-project-car-shop/pulls) e confira que o seu _Pull Request_ está criado
+  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/JuanVictorDavila/CarShop/pulls) e confira que o seu _Pull Request_ está criado
 
 </details>
 
@@ -126,24 +85,15 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
 
-  * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
+  * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque JuanVictorDavila:
 
     * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
 
     * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
 
-    * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`.
+    * No menu à direita, clique no _link_ **"Reviewers"** e digite `JuanVictorDavila`.
 
   Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary>
-    <strong>🕵🏿 Revisando um pull request</strong>
-  </summary><br>
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
 
 </details>
 
@@ -159,8 +109,6 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   - Se a análise do `ESLint` encontrar problemas no seu código, eles serão mostrados no seu terminal. 
   - Se não houver problema no seu código, nada será impresso no seu terminal.
   - Você pode também instalar o plugin do `ESLint` no `VSCode`. Para isso, bastar ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
-
-  ⚠️ **Importante**: Pull Requests com issues de Linter não serão avaliadas. Atente-se para resolvê-las antes de finalizar o desenvolvimento.
 
 </details>
 
@@ -332,29 +280,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
 </details>
 
-<details>
-  <summary>
-    <strong>🗣 Nos dê feedbacks sobre o projeto!</strong>
-  </summary><br>
-
-  Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. **Leva menos de 3 minutos!**
-
-  Link: [Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-</details>
-
-<details>
-  <summary>
-    <strong>🗂 Compartilhe seu portfólio!</strong>
-  </summary><br>
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-# Requisitos
-
-## Requisitos Obrigatórios
+## Requisitos
 
 ### 01 - Crie a interface `Model` genérica
 
@@ -769,8 +695,6 @@ Escreva testes que cubram 90% da camada Controller. Seus arquivos de teste dever
   - A cobertura total das linhas dos arquivos na pasta `controllers` é igual a 90%.
   
 </details>
-
-## Requisitos não avaliativos
 
 ### 27 - Escreva testes para cobrir 100% da camada de Model
 
